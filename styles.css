@@ -12,7 +12,9 @@ body {
     align-items: center;
     padding: 10px;
 }
-
+.container {
+    padding: 0;
+}
 .main {
     display: flex;
     gap: 80;
@@ -21,7 +23,7 @@ body {
 .left {
     background-color: rgb(74, 120, 189);
     opacity: 0.9;
-    padding: 10px;
+    padding: 5px;
     width: 50%;
 }
 
@@ -49,7 +51,7 @@ body {
 .right {
     background-color: rgb(152, 240, 36);
     opacity: 0.9;
-    padding: 10px;
+    padding: 5px;
     width: flex;
     align-items: center;
 }
