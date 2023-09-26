@@ -20,6 +20,10 @@ body {
     gap: 80;
 }
 
+.left, .right {
+    height: 50%; /* Aseta korkeus 50 prosentiksi näytön korkeudesta */
+}
+
 .left {
     background-color: rgb(74, 120, 189);
     opacity: 0.9;
