@@ -1,8 +1,6 @@
 body {
     display: grid;
     place-items: center;
-    
-    
     background-image: url('img/golfkenttäTerttuToivonenIMGQ3855.png');
     background-size: cover;
     background-attachment: fixed;
@@ -12,12 +10,12 @@ body {
     height: 100vh; /* taustakuvasta koko näytön kokoinen */
     color: white;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .main {
     display: flex;
-    gap: 200ps;
+    gap: 80;
 }
 
 .left {
@@ -30,7 +28,7 @@ body {
 .left h3 {
     text-align: center;
     font-size: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 .golf-image {
@@ -52,7 +50,7 @@ body {
     background-color: rgb(152, 240, 36);
     opacity: 0.9;
     padding: 10px;
-    width: 50%;
+    width: flex;
     align-items: center;
 }
 
