@@ -1,0 +1,113 @@
+body {
+    display: grid;
+    place-items: center;
+    
+    
+    background-image: url('img/golfkenttäTerttuToivonenIMGQ3855.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* taustakuvasta koko näytön kokoinen */
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    gap: 200ps;
+}
+
+.left {
+    background-color: rgb(74, 120, 189);
+    opacity: 0.9;
+    padding: 10px;
+    width: 50%;
+}
+
+.left h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.golf-image {
+    width: 300px;
+}
+
+.golf-image:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.golf-image:active {
+    opacity: 0.6;
+    transform: scale(1.08);
+}
+
+
+.right {
+    background-color: rgb(152, 240, 36);
+    opacity: 0.9;
+    padding: 10px;
+    width: 50%;
+    align-items: center;
+}
+
+.cost-info {
+    display: flex;
+    gap: 5px;
+}
+
+.upgrade {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 330px;
+    height: 80px;
+    border: 4px solid rgb(0, 81, 255);
+    padding: 10px 20 px;
+    border-radius: 5px;
+}
+
+.mid-section h4 {
+    margin: 0;
+    margin-bottom: 0px;
+    font-size: 2em;
+}
+
+.mid-section p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.right-section {
+    padding-right: 10px;
+}
+
+.upgrade-img {
+    width: 55px;
+}
+
+.golf-img {
+    width: 35px;
+    height: 25px;
+}
+
+.cost-info {
+    display: flex;
+    gap: 5px;
+}
+
+/* CSS-sääntö pienille golfpalloille */
+.ball {
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    background-image: url('img/golfpallo2TerttuToivonenIMGS3330.png');
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+}
